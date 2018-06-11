@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -72,7 +72,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  width: 340px;
+  width: 510px;
   background: #F9C73D;
   text-transform: uppercase;
   text-align: center;
@@ -88,22 +88,80 @@ nav ul li a:hover {
 
 section {
   float: left;
-  width: 980px;
-  margin: 20px;
+  width: 800px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   line-height: 20px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 4px;
+}
 
-/* make width and padding on left and right x 2 equal 1020 to get photo centered for img class, leave top and bottom padding at 20 to create equal spacing*/
-img {
-  width: 940px;
-  padding-left: 40px;
-  padding-right: 40px;
+p.first {
+text-indent: 3em;
+}
+p.bib {
+  margin-bottom: 7px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.crop_fields{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box_plot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}/*a*/
+.entropy{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -118,8 +176,8 @@ footer {
   clear: both;
   background-color: #00437F;
   padding: 20px;
-  color: #fff;
   line-height: 20px;
   font-size: 12px;
+  color: #FFFFFF;
   text-align: center;
 }
